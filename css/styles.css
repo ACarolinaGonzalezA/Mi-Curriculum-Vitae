@@ -1,7 +1,10 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif; /*establecer la fuente o tipo de letra que se aplicará al texto de un elemento*/
-    
- 
+     
+}
+main{
+    padding:25px 150px;
+    background-position: center top;
 }
 header{
     background-color:#547E8F; /* Establece el color de fondo del elemento.*/
@@ -49,7 +52,7 @@ h2 {
     line-height: 50px; /*Establece la altura de línea del texto dentro del elemento. */
     color: white; 
     padding: 0px; /*Establece el espacio de relleno alrededor del contenido del elemento*/
-    margin: 40px; /* Elimina el margen por defecto del h2 */
+    margin:20px auto; /* Elimina el margen por defecto del h2 */
     text-align: center;
     width: 50%; /* Ajusta el ancho al 50% del contenedor padre */
     justify-content: center; /* Centra horizontalmente el contenido */
@@ -65,11 +68,19 @@ footer{
     font-size: 20px;
     text-align: center;
 }
+p{
 
+}
 
 div nav ul li {
     display: inline-block;
-    margin-right: 50px;
+    margin:20px auto; 
+  }
+
+  h2 ul li{
+    margin:auto;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center;
   }
   
   .button {
@@ -80,6 +91,15 @@ div nav ul li {
     border-radius: 20px;
   }
   
+  p{
+    text-align: justify;
+    margin: 0 auto;
+    width: 50%; /* Ajusta el valor según la medida deseada */
+  }
   
-  
+  dl dd {
+    text-align: justify;
+    margin: 0 auto;
+    width: 50%; /* Ajusta el valor según la medida deseada */
+  }
   
