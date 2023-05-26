@@ -1,39 +1,63 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*establecer la fuente o tipo de letra que se aplicará al texto de un elemento*/
+    
+ 
+}
 header{
-    background-color:#547E8F;
-    background-image: url('../images');
-    background-size: cover;
+    background-color:#547E8F; /* Establece el color de fondo del elemento.*/
+    background-image: url('../images/fondo-negro-engranajes.jpg');
+    background-size:cover;
     background-repeat: no-repeat;
-    background-attachment: scroll;
-    height: 400px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: aliceblue;
+    background-attachment: fixed;
+    background-position: center top;
+    height: 400px;    
+    color: aliceblue; /*Define el color del texto dentro del elemento*/
     
 }
 
 .imagen1 {
     display: block;
     margin: auto;
-    height: 35vh;
-    padding-top: 120px;
-    width: 200px;
+    height: 200px;
+    padding-top: 100px;
+    width: 180px;
+    
     }
 
 h1{
-    background-color:#F9DA7A;
-    height: 50px;
+    background-color:#27323D;
+    height: 80px;
     text-align: center;
     letter-spacing: 5px;
-    color: #4A4124;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+div{
+    padding: 20px;
+    background-color: #CAE0D0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 h2 {
-    background-color:#F9DA7A;
-    font-size: 20px;
-    line-height: 17px;
-    letter-spacing: 5px;
-    line-height: 40px;
+    background-color:#27323D; 
+    font-size: 20px; /*Define el tamaño de la fuente del texto dentro del elemento*/
+    letter-spacing: 5px; /*Controla el espacio entre los caracteres del texto dentro del elemento.*/
+    line-height: 50px; /*Establece la altura de línea del texto dentro del elemento. */
+    color: white; 
+    padding: 0px; /*Establece el espacio de relleno alrededor del contenido del elemento*/
+    margin: 40px; /* Elimina el margen por defecto del h2 */
+    text-align: center;
+    width: 50%; /* Ajusta el ancho al 50% del contenedor padre */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    
 }
-p{
-    background-color: #547E8F;
+footer{
+    background-color: #547E8F;;
     font-weight: 700px;
     line-height: 40px;
     font-weight: bold;
@@ -41,3 +65,21 @@ p{
     font-size: 20px;
     text-align: center;
 }
+
+
+div nav ul li {
+    display: inline-block;
+    margin-right: 50px;
+  }
+  
+  .button {
+    text-decoration: none;
+    padding: 15px 20px;
+    background-color: #728F7A;
+    color: #000;
+    border-radius: 20px;
+  }
+  
+  
+  
+  
