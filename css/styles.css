@@ -19,12 +19,11 @@ header{
 }
 
 .header-imagen1 {
-    display: block;
-    margin: auto;
+    margin-top: 40px;
     height: 230px;    
     width: 180px;
     border: solid 1px #D6790D;
-    
+    margin-left: 700px;
     }
 
 header h1{
@@ -56,9 +55,8 @@ h2 {
     padding: 0px; /*Establece el espacio de relleno alrededor del contenido del elemento*/
     margin:20px auto; /* Elimina el margen por defecto del h2 */
     text-align: center;
-    width: 50%; /* Ajusta el ancho al 50% del contenedor padre */
+    width: 100%; /* Ajusta el ancho al 100% del contenedor padre */
     justify-content: center; /* Centra horizontalmente el contenido */
-    align-items: center; /* Centra verticalmente el contenido */
     
 }
 footer{
