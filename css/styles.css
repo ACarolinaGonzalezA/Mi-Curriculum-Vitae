@@ -19,7 +19,7 @@ header{
     height: 240px;
     top: 150px;
     right: 200px;
-        
+    box-sizing: border-box;   
     }
 
 .header-container-name{
@@ -32,35 +32,43 @@ header{
     justify-content: center;
     padding: 10px;
     top: 400px;
-      
+    box-sizing: border-box;  
 }
 
 .main-button-information {
     height: 200px;  
     background-color: #D8EDEF;  
+    font-size: 15px;
+    right: 90px;
+    
+    
 }
 
 .main-button-information nav a{
-    width: 100px;
+    width: 10px;
     bottom: 10px;
-    padding: 20PX;
+    padding: 10PX;
     background-color: #6EC1AA;
     color: #000000;
     text-decoration:none;
-    border-radius: 5px;  
+    border-radius: 5px;      
 }
 .main-button-information nav li {
-    margin-right: 20px;
+    margin-right: 5px;
+    margin-top: 120px;
+    
 }
 .main-button-information nav ul {
-    display: flex;
+    display:flex;
     list-style-type: none;
-    padding: 130px;
+    padding: 20px;
+    box-sizing: border-box;
+    
 }
 
 h2 {
     background-color:#D6790D; 
-    font-size: 20px; /*Define el tamaño de la fuente del texto dentro del elemento*/
+    font-size: 15px; /*Define el tamaño de la fuente del texto dentro del elemento*/
     letter-spacing: 5px; /*Controla el espacio entre los caracteres del texto dentro del elemento.*/
     line-height: 50px; /*Establece la altura de línea del texto dentro del elemento. */
     color: white; 
@@ -74,28 +82,39 @@ h2 a{
 }
 .main-container-personalinformation dl {
     height: 150px;
-    text-align: justify;
-    margin: 0 auto;
-    width: 50%;
+    text-align: left;
+    margin-top: 20px;
+    width: 100%;
+    font-size: 15px;
+    margin-left: 50px;
     
   }
   .main-container-education dl{
     height: 230px;
-    text-align: justify;
+    text-align: left;
     margin: 0 auto;
-    width: 50%;
+    width: 100%;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-top: 20px;
+  
   }
 .main-container-experience dl{
     height: 270px;
-    text-align: justify;
+    text-align: left;
     margin: 0 auto;
-    width: 50%;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-top: 20px;
 }
 .main-container-certificates dl{
     height: 140px;
-    text-align: justify;
+    text-align:left;
     margin: 0 auto;
-    width: 50%;
+    width: 100%;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-top: 20px;
 }
 
 .footer-container-email{
@@ -113,6 +132,7 @@ h2 a{
   justify-content: center;
   align-items: center;
   margin-top: 0;
+  padding: 0;
 }
 
 .footer-container-icons i {
