@@ -1,65 +1,103 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif; /*establecer la fuente o tipo de letra que se aplicará al texto de un elemento*/
-     
+    box-sizing: border-box;
 }
-main{
-    padding:25px 150px;
-    background-position: center top;
-}
+
 header{
     background-color:#547E8F; /* Establece el color de fondo del elemento.*/
     background-image: url('../images/iStock-617775558.jpg');
     background-size:cover;
-    background-repeat: no-repeat;
     background-attachment:fixed;
     background-position: center bottom;
-    height: 400px;    
-    color: aliceblue; /*Define el color del texto dentro del elemento*/
-    
+    height: 400px;   
 }
 
-.header-imagen1 {
-    margin-top: 40px;
-    height: 230px;    
-    width: 180px;
+.header-profile-picture img {
+    position: absolute;
+    margin-top: 20px;  
     border: solid 1px #D6790D;
-    margin-left: 700px;
+    height: 200px;
+    top: 150px;
+    right: 200px;    
     }
 
-header h1{
+.header-container-name{
+    position: relative;
     background-color:#D6790D;
-    height: 40px;
     text-align: center;
     letter-spacing: 5px;
     color: white;
-    display:flex;
     align-items: center;
     justify-content: center;
-    padding: 30px;
+    padding: 10px;
+    top: 400px;
+      
+}
 
-    
+.main-button-information {
+    height: 200px;  
+    background-color: #D8EDEF;  
 }
-main div{
-    padding: 20px;
-    background-color:#D8EDEF;
+
+.main-button-information nav a{
+    width: 100px;
+    bottom: 10px;
+    padding: 20PX;
+    background-color: #6EC1AA;
+    color: #000000;
+    text-decoration:none;
+    border-radius: 5px;  
+}
+.main-button-information nav li {
+    margin-right: 20px;
+}
+.main-button-information nav ul {
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    list-style-type: none;
+    padding: 130px;
 }
+
 h2 {
     background-color:#D6790D; 
     font-size: 20px; /*Define el tamaño de la fuente del texto dentro del elemento*/
     letter-spacing: 5px; /*Controla el espacio entre los caracteres del texto dentro del elemento.*/
     line-height: 50px; /*Establece la altura de línea del texto dentro del elemento. */
     color: white; 
-    padding: 0px; /*Establece el espacio de relleno alrededor del contenido del elemento*/
-    margin:20px auto; /* Elimina el margen por defecto del h2 */
-    text-align: center;
-    width: 100%; /* Ajusta el ancho al 100% del contenedor padre */
-    justify-content: center; /* Centra horizontalmente el contenido */
+    text-align: center;   
+    margin-top: 0px; 
     
 }
-footer{
+h2 a{
+  text-decoration: none;
+  color: white;
+}
+.main-container-personalinformation dl {
+    height: 150px;
+    text-align: justify;
+    margin: 0 auto;
+    width: 50%;
+    
+  }
+  .main-container-education dl{
+    height: 230px;
+    text-align: justify;
+    margin: 0 auto;
+    width: 50%;
+  }
+.main-container-experience dl{
+    height: 270px;
+    text-align: justify;
+    margin: 0 auto;
+    width: 50%;
+}
+.main-container-certificates dl{
+    height: 140px;
+    text-align: justify;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.footer-container-email{
     background-color: #242D5C;;
     font-weight: 700px;
     line-height: 40px;
@@ -68,45 +106,66 @@ footer{
     font-size: 20px;
     text-align: center;
 }
-p{
 
+.footer-container-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
 }
 
-div nav ul li {
-    display: inline-block;
-    margin:60px auto; 
-  }
-
-  h2 ul li{
-    margin:auto;
-    justify-content: center; /* Centra horizontalmente el contenido */
-    align-items: center;
-  }
+.footer-container-icons i {
+  color: #242D5C;
+  font-size: 25px;
+  margin: 8px;
+}
   
-  .button {
-    text-decoration: none;
-    padding: 15px 20px;
-    background-color: #6EC1AA;
-    color: #000;
-    border-radius: 20px;
-  }
+.header-container-aboutme h1{
+  background-color:#D6790D; 
+  position: relative;
+  background-color:#D6790D;
+  text-align: center;
+  letter-spacing: 5px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.header-container-aboutme a{
+  font-size: 20px;
+  margin: 40px;
+  padding: 20PX;
+  background-color: #6EC1AA;
+  color: #000000;
+  text-decoration:none;
+  border-radius: 5px;  
+}
   
-  p{
+.main-container-aboutme-information p{
     text-align: justify;
     margin: 0 auto;
     width: 50%; /* Ajusta el valor según la medida deseada */
+    
   }
-  
-  dl dd {
-    text-align: justify;
-    margin: 0 auto;
-    width: 50%; /* Ajusta el valor según la medida deseada */
-  }
-  
-  h2 a {
-    color: white; /* Cambia el color a tu elección */
-    text-decoration: none; /* Elimina la decoración de enlace por defecto */
-  }
-  footer h4 i{
+  .footer-container-aboutme-email{
+    background-color: #242D5C;;
+    font-weight: 700px;
+    line-height: 40px;
+    font-weight: bold;
     color: white;
-  }
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer-container-aboutme-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+}
+
+.footer-container-aboutme-icons i {
+  color: #242D5C;
+  font-size: 25px;
+  margin: 8px;
+}
